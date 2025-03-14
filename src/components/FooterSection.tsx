@@ -21,10 +21,10 @@ const FooterSection = () => (
         <Col className="rightCol justify-content-end">
           <Row>
             <Nav className="justify-content-end">
-              <Nav.Link className="footer" href="#"><Instagram size="30px" /></Nav.Link>
-              <Nav.Link className="footer" href="#"><Facebook size="30px" /></Nav.Link>
-              <Nav.Link className="footer" href="#"><Twitter size="30px" /></Nav.Link>
-              <Nav.Link className="footer" href="#"><Yelp size="30px" /></Nav.Link>
+              <Nav.Link className="icons" href="#"><Instagram size="30px" /></Nav.Link>
+              <Nav.Link className="icons" href="#"><Facebook size="30px" /></Nav.Link>
+              <Nav.Link className="icons" href="#"><Twitter size="30px" /></Nav.Link>
+              <Nav.Link className="icons" href="#"><Yelp size="30px" /></Nav.Link>
             </Nav>
           </Row>
           <Row>

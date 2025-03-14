@@ -24,7 +24,7 @@ const OurJourneyNav = () => (
           <Nav.Link className="menu" href="#">OHANA RUM CLUB</Nav.Link>
           <Nav.Link className="menu" href="#">WHERE TO BUY</Nav.Link>
           <Nav.Link className="menu" href="#">RECIPES</Nav.Link>
-          <Nav.Link href="#">
+          <Nav.Link className="menu" href="#">
             <Cart2 />
             {' '}
             0

@@ -17,7 +17,7 @@ const OurJourneyNav = () => (
 
       <Navbar.Collapse>
         <Nav className="ms-auto">
-          <Nav.Link className="menu" href="#">OUR JOURNEY</Nav.Link>
+          <Nav.Link className="menu current" href="#">OUR JOURNEY</Nav.Link>
           <Nav.Link className="menu" href="#">SHOP</Nav.Link>
           <Nav.Link className="menu" href="#">CORPORATE GIFTING</Nav.Link>
           <Nav.Link className="menu" href="#">VISIT</Nav.Link>

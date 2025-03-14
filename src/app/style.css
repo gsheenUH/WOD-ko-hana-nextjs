@@ -6,9 +6,12 @@
   color: #FFD700; /* a gold-like color */
 }
 
+.current{
+  text-decoration: underline;
+}
+
 .menu:hover{
   color: #FFD700; /* a gold-like color */
-  text-decoration: underline;
   text-shadow: 0 0 4px #FFD700;
 }
 
@@ -18,7 +21,6 @@
 
 .footer:hover{
   color: #FFD700; /* a gold-like color */
-  text-decoration: underline;
   text-shadow: 0 0 4px #FFD700;
 }
 

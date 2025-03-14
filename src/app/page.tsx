@@ -1,21 +1,21 @@
-import { Col, Container, Image, Row } from 'react-bootstrap';
+'use client';
 
-/** The Home page. */
-const Home = () => (
-  <main>
-    <Container id="landing-page" fluid className="py-3">
-      <Row className="align-middle text-center">
-        <Col xs={4}>
-          <Image src="next.svg" width="150px" alt="" />
-        </Col>
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css';
+import React from 'react';
+import OurJourneyNav from '@/components/OurJourneyNav';
+import HeroSection from '@/components/HeroSection';
+import BookNowButton from '@/components/BookNowButton';
+import FooterSection from '@/components/FooterSection';
 
-        <Col xs={8} className="d-flex flex-column justify-content-center">
-          <h1>Welcome to this template</h1>
-          <p>Now get to work and modify this app!</p>
-        </Col>
-      </Row>
-    </Container>
+/** 4) MAIN PAGE COMPONENT */
+const OurJourneyPage = () => (
+  <main className="d-flex flex-column min-vh-100">
+    <OurJourneyNav />
+    <HeroSection />
+    <BookNowButton />
+    <FooterSection />
   </main>
 );
 
-export default Home;
+export default OurJourneyPage;
